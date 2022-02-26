@@ -9,21 +9,21 @@ Enunciado: Introdução aos tipos de dados - listas
 
 ## Listas começam com []
 notas = [4,5,0,9,10]
-print(f"Notas: {notas}")
+print(f"\nNotas: {notas}")
 
 ## Podemos transformar outros objetos para o tipo lista com a função list()
 notas_tup= (1,2,3,4) # Aqui criamos uma tupla
 notas = list(notas_tup) # ... e transformamos o tipo de objeto de tupla para lista
-print(f"A variável notas é do tipo: {type(notas)}") # Vamos checar com a função type()?
+print(f"\nA variável notas é do tipo: {type(notas)}") # Vamos checar com a função type()?
 
 ## Uma lista pode armazenar vários tipos de objetos
 # Abaixo uma lista com string, int, float, booleano, e inclusive outra lista
 lst_obj_variados = ["Henrique", 1, 10.0, False, [5,5,5]]
-print(f"Lista com tipos de objetos variados: {lst_obj_variados}")
+print(f"\nLista com tipos de objetos variados: {lst_obj_variados}")
 
 ## Comprimento de lista
 # A lista interna conta como um único elemento!
-print(f"A lista `lst_obj_variados` tem {len(lst_obj_variados)} elementos")
+print(f"\nA lista `lst_obj_variados` tem {len(lst_obj_variados)} elementos")
 
 # ----------------------------------------------------------------------------------------------------
 ### ACESSANDO ELEMENTOS DE LISTA COM FATIAMENTO (SLICING)
@@ -76,7 +76,7 @@ print(f"\nO elemento coletado é {elemento_coletado}")
 
 # Ordenando os valores de uma lista
 notas.sort() # Lista de notas (linha 11)
-print(f"Notas ordenadas: {notas}")
+print(f"\nNotas ordenadas: {notas}")
 
 # ...e a lista vai longe! Aqui são só alguns que abordamos nas aulas!
 # temos ainda o .clear(), .copy(), .reverse()
