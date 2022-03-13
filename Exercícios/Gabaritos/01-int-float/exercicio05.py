@@ -7,8 +7,6 @@ Escreva um programa que leia do usuário um número de 4 dígitos e imprima a so
 Exemplo, se o usuário digitar 3141 seu programa deverá imprimir na tela 3+1+4+1=9.
 """
 
-from re import A
-
 numero = input("Digite um número de 4 dígitos: ")
 
 # Enquanto a entrada não tiver 4 digitos ou todos eles não forem numéricos:
