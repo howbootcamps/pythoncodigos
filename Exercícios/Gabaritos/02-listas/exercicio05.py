@@ -3,7 +3,7 @@ How Bootcamps - Stone - /código[s]
 Autor: Henrique Junqueira Branco
 
 Enunciado:
-Faça um programa que remova strings vazias de uma lista de strings.
+Dada a seguinte lista lst = [10, 20, [300, 400, [5000, 6000], 500], 30, 40] adicione o elemento 7000 logo após o elemento 6000 na lista. 
 """
 
 lst = [10, 20, [300, 400, [5000, 6000], 500], 30, 40]
