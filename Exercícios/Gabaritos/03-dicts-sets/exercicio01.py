@@ -40,9 +40,9 @@ alunos_frances = {
 
 print(f"Resp 1) - {len(alunos_ingles.union(alunos_frances))}", end="\n\n")
 
-print(f"Resp 2) - {len(alunos_ingles)}. Os alunos são: {alunos_ingles}", end="\n\n")
+print(f"Resp 2) - {len(alunos_ingles) - len(alunos_frances)}. Os alunos são: {alunos_ingles - alunos_frances}", end="\n\n")
 
-print(f"Resp 3) - {len(alunos_frances)}. Os alunos são: {alunos_frances}", end="\n\n")
+print(f"Resp 3) - {len(alunos_frances) - len(alunos_ingles)}. Os alunos são: {alunos_frances - alunos_ingles}", end="\n\n")
 
 print(
     f"Resp 4) - {len(alunos_ingles.intersection(alunos_frances))}. Os alunos são: {alunos_ingles.intersection(alunos_frances)}",
