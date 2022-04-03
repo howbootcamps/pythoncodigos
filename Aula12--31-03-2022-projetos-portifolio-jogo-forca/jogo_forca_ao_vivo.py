@@ -19,7 +19,7 @@ from random import choice
 from utils import STATUS, WORDS
 
 
-def get_secret_word(words: list) -> str:
+def get_secret_word(path: list) -> str:
     """Devolve uma palavra aleatória de uma lista.
 
     Args:
@@ -28,6 +28,8 @@ def get_secret_word(words: list) -> str:
     Returns:
         str: palavra secreta aleatória sorteada
     """
+    with open(path, "r") as f:
+        words = f.read().split()
     return choice(words).upper()
 
 
