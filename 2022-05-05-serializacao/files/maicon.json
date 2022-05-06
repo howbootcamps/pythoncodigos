@@ -1,0 +1,15 @@
+{
+    "nome": "Maicon",
+    "idade": 35,
+    "cidade": "Curitiba",
+    "veiculo": [
+        {
+            "marca": "VW",
+            "modelo": "fusca"
+        },
+        {
+            "marca": "GM",
+            "modelo": "chevete"
+        }
+    ]
+}
