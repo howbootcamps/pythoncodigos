@@ -1,0 +1,17 @@
+attrs==21.4.0
+autopep8==1.6.0
+behave==1.2.6
+coverage==6.4
+iniconfig==1.1.1
+packaging==21.3
+parse==1.19.0
+parse-type==0.6.0
+pluggy==1.0.0
+py==1.11.0
+pycodestyle==2.8.0
+pyparsing==3.0.9
+pytest==7.1.2
+pytest-cov==3.0.0
+six==1.16.0
+toml==0.10.2
+tomli==2.0.1
